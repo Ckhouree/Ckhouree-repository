@@ -1,0 +1,102 @@
+DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+display: flex;
+flex-direction: row;
+}
+.flex-container > div {
+background-color: grey;
+width: 500px;
+height: 400px;
+margin: 10px;
+text-align: left;
+line-height: 25px;
+font-size: 17px;
+</style>
+</head>
+<body>
+<h1>0ur Menu</h1>
+<style>
+h1 {
+text-align: center;
+}
+</style>
+<style>
+.center {
+margin: auto;
+}
+</style>
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+{
+.navbar {
+overflow: hidden;
+background-color: white;
+
+.navbar a {
+float: Center;
+font-size: 16px;
+color:white;
+text-align: center;
+padding: 14px 16px;
+text-decoration:none;
+
+.subnav{
+float: center;
+overflow: hidden;
+.subnav.subnavbtn {
+font-size: 16px;
+border: none;
+outline: none;
+color: black;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+.navbar a:hover, .subnav:hover .subnavbtn { background-color: white;
+}
+.subnav-content {
+display: none;
+position: center;
+left: 0;
+background-color: white;
+width: 100%;
+z-index: 1;
+}
+.subnav-content a {
+float: center;
+color: black;
+text-decoration: none;
+}
+-subnav-content a:hover {
+background-color: #eee;
+color: black;
+}
+.subnav:hover .subnav-content {
+display: block;
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+<div class="subnav">
+<button class="subnavbtn">Food, LLC <i class="fa fa-caret-down"></i></button>
+<div class="subnav-content">
+<a href="#Chicken">Chicken</a>
+<a href="#Beef">Beef</a>
+<a href="#Sushi">Sushi</a>
+</div>
+
+<div class="flex-container">
+<div> <P align="Center">
+Chicken&nbsp <br>
+lorem ipsum dolor sit amet,consecteturadipisicing elit, sed do eiusmodtempor incididuntut labore et dolore magna aliqua.Ut enim adminimveniam,quis nostrud exercitation ullamcolaboris nisi utaliquip ex eacommodo consequat.lorem ipsum dolor sit amet,consecteturadipisicing elit, sed do eiusmodtempor incididuntut labore et dolore magna aliqua.Ut enim adminimveniam,quis nostrudexercitation ullamcolaboris nisi ut aliquip ex eacommodo consequat.lorem ipsum dolor sit amet,consecteturadipisicing elit, sed do eiusmodtempor incididuntut labore et dolore magna aliqua.Ut enim adminimveniam,quis nostrud exercitation ullamcolaboris nisi ut aliquip ex eacommodo consequat.</div>
+<style>
+.flex-container{padding:0;margin:0;list-style:none;display: flex;align-items:center;justify-content:center;
+}
+</body>
+</html>
