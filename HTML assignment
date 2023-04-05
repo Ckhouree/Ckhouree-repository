@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+display: flex;
+flex-direction: row;
+
+}
+.flex-container > div {
+background-color: #f1f1f1;
+width: 500px;
+height: 300px;
+margin: 5px;
+text-align: left;
+line-height: 25px;
+font-size: 17px;
+</style>
+</head>
+<body>
+<h1>0ur Menu</h1>
+<style>
+h1 {
+text-align: center;
+}
+</style>
+<style>
+div:first-line {
+font-size: 1.3rem;
+font-weight: bold;
+text-decoration: underline;
+background-color: #FFFF00;
+color: red;
+text-transform: uppercase;
+}
+</style>
+<div class="flex-container">
+<div> <P align="right">
+>Chicken&nbsp <br>
+lorem ipsum dolor sit amet,consecteturadipisicing elit, sed do eiusmodtempor incididuntut labore et dolore magna aliqua. Ut enim adminimveniam,quis nostrud exercitation ullamcolaboris nisi ut aliquip ex eacommodo consequat.</div>
+<div> <P align="right" >Beef&nbsp<br>
+lorem ipsum dolortsit amet,consecteturadipisicing elit, sed do eiusmodtempor incididuntut labore et dolore magna aliqua. Ut enim adminimveniam,quis nostrud exercitation ullamcolaboris nisi ut aliquip ex eacommodo consequat.</div>
+<div> <P align="right">
+> Sushi&nbsp<br>
+lorem ipsum dolor sit amet,consecteturadipisicing elit, sed do eiusmodtempor incididuntut labore et dolore magna aliqua. Ut enim adminimveniam,quis nostrud exercitation ullamcolaboris nisi ut aliquip ex eacommodo consequat.</div>
+</div>
+
+</body>
+</html>
